@@ -56,7 +56,7 @@ function createSeats(reservedSeat)
 					seatList.push("</ul></div>"+"<div class='bronze_tickets_map col-md-12'><p class='category'>BRONZE (Rs "+settings.price.Bronze+")"+"</p>"+"<ul id='tickets_map' class='Bronze'>");
 					k=0;
 				}
-				else if(seatNumber==1)
+				else if(seatNumber==15)
 				seatList.push("<div class='gold_tickets_map col-md-12'><p class='category'>GOLD (Rs "+settings.price.Gold+")"+"</p>"+"<ul id='tickets_map' class='Gold'>");
 
 			seatClass=settings.seatCss+' '+settings.rowCssPrefix+i.toString()+' '+settings.colCssPrefix+j.toString();
